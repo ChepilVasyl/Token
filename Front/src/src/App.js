@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import "../src/components/jwtExample.js"
-import JwtExample from "./components/jwtExample";
+import "./components/jwtExample.js"
+import JwtExample from "./components/jwtExample.js";
 
 function App() {
   return (

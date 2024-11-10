@@ -1,0 +1,11 @@
+FROM node:20
+
+WORKDIR /myMainFolderInDocker
+
+COPY src ./
+
+RUN npm install
+
+EXPOSE 3080
+
+CMD ["node", "jwtToken"]

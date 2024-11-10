@@ -1,7 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2e38d47-0060-4aa3-8843-fbed9b4ce1e1" name="Changes" comment="Об'єднання 3-х проектів Generate, Verify, Frontend">
+      <change afterPath="$PROJECT_DIR$/Front/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/src/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GenerateToken/dockerFile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerifyToken/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dockerCompose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/public/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/public/logo512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/components/jwtExample.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/src/components/jwtExample.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/src/reportWebVitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenerateToken/.env" beforeDir="false" afterPath="$PROJECT_DIR$/GenerateToken/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenerateToken/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/GenerateToken/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenerateToken/jwtToken.js" beforeDir="false" afterPath="$PROJECT_DIR$/GenerateToken/src/jwtToken.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenerateToken/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/GenerateToken/src/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="PropertiesComponent">{}</component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2nmnj5mhHQl62kf9cD4L0orUKPQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.dockerCompose.yml.fronttoken: Compose Deployment.executor": "Run",
+    "Docker.dockerCompose.yml: Compose Deployment.executor": "Run",
+    "Node.js.jwtExample.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Front/src/Components" />
+      <recent name="$PROJECT_DIR$/Front" />
+      <recent name="$PROJECT_DIR$/Front/src" />
+      <recent name="$PROJECT_DIR$/Front/src/components" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.dockerCompose.yml.fronttoken: Compose Deployment">
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="dockerCompose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="MyDocker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="dockerCompose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="dockerCompose.yml.fronttoken: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="MyDocker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="fronttoken" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="dockerCompose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.dockerCompose.yml.fronttoken: Compose Deployment" />
+        <item itemvalue="Docker.dockerCompose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PS-241.15989.102" />
+        <option value="bundled-php-predefined-ba97393d7c68-c76157a7178b-com.jetbrains.php.sharedIndexes-PS-241.15989.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2e38d47-0060-4aa3-8843-fbed9b4ce1e1" name="Changes" comment="" />
+      <created>1729587250524</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729587250524</updated>
+      <workItem from="1729587251603" duration="1260000" />
+      <workItem from="1730540594306" duration="17273000" />
+      <workItem from="1730915263526" duration="23000" />
+      <workItem from="1730915575033" duration="3469000" />
+      <workItem from="1731089374270" duration="3051000" />
+      <workItem from="1731155271389" duration="7346000" />
+    </task>
+    <task id="LOCAL-00001" summary="Об'єднання 3-х проектів">
+      <option name="closed" value="true" />
+      <created>1729587283386</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729587283386</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Об'єднання 3-х проектів Generate, Verify, Frontend">
+      <option name="closed" value="true" />
+      <created>1729588213609</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729588213609</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Об'єднання 3-х проектів" />
+    <MESSAGE value="Об'єднання 3-х проектів Generate, Verify, Frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Об'єднання 3-х проектів Generate, Verify, Frontend" />
+  </component>
 </project>

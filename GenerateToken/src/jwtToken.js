@@ -4,10 +4,10 @@ import jwt from "jsonwebtoken";
 dotenv.config()
 const SERVER_HOST = process.env.SERVER_HOST || "localhost"
 const SERVER_PORT = process.env.SERVER_PORT || 3080
-const JWT_SECRET = process.env.JVT_SECRET || 12345
-const JVT_TTL= process.env.JVT_TTL || "1h"
+const JWT_SECRET = process.env.JWT_SECRET || "12345"
+const JWT_TTL= process.env.JWT_TTL || "1h"
 const generateToken = (payload)=>{
-    return  jwt.sign(payload,JWT_SECRET,{expiresIn: JVT_TTL})
+    return  jwt.sign(payload,JWT_SECRET,{expiresIn: JWT_TTL})
 }
 const payload = {
     name: "Vasyl",
